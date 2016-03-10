@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DEA74591C91AE84007DBEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA74581C91AE84007DBEDC /* AppDelegate.swift */; };
+		3DEA745B1C91AE84007DBEDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA745A1C91AE84007DBEDC /* ViewController.swift */; };
+		3DEA745E1C91AE84007DBEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA745C1C91AE84007DBEDC /* Main.storyboard */; };
+		3DEA74601C91AE84007DBEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA745F1C91AE84007DBEDC /* Assets.xcassets */; };
+		3DEA74631C91AE84007DBEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA74611C91AE84007DBEDC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DEA74551C91AE84007DBEDC /* ZFDragableModalTransitionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFDragableModalTransitionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA74581C91AE84007DBEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DEA745A1C91AE84007DBEDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DEA745D1C91AE84007DBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DEA745F1C91AE84007DBEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DEA74621C91AE84007DBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DEA74641C91AE84007DBEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DEA74521C91AE84007DBEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEA744C1C91AE84007DBEDC = {
+			isa = PBXGroup;
+			children = (
+				3DEA74571C91AE84007DBEDC /* ZFDragableModalTransitionSwift */,
+				3DEA74561C91AE84007DBEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DEA74561C91AE84007DBEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA74551C91AE84007DBEDC /* ZFDragableModalTransitionSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DEA74571C91AE84007DBEDC /* ZFDragableModalTransitionSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA74581C91AE84007DBEDC /* AppDelegate.swift */,
+				3DEA745A1C91AE84007DBEDC /* ViewController.swift */,
+				3DEA745C1C91AE84007DBEDC /* Main.storyboard */,
+				3DEA745F1C91AE84007DBEDC /* Assets.xcassets */,
+				3DEA74611C91AE84007DBEDC /* LaunchScreen.storyboard */,
+				3DEA74641C91AE84007DBEDC /* Info.plist */,
+			);
+			path = ZFDragableModalTransitionSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DEA74541C91AE84007DBEDC /* ZFDragableModalTransitionSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEA74671C91AE84007DBEDC /* Build configuration list for PBXNativeTarget "ZFDragableModalTransitionSwift" */;
+			buildPhases = (
+				3DEA74511C91AE84007DBEDC /* Sources */,
+				3DEA74521C91AE84007DBEDC /* Frameworks */,
+				3DEA74531C91AE84007DBEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFDragableModalTransitionSwift;
+			productName = ZFDragableModalTransitionSwift;
+			productReference = 3DEA74551C91AE84007DBEDC /* ZFDragableModalTransitionSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DEA744D1C91AE84007DBEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3DEA74541C91AE84007DBEDC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DEA74501C91AE84007DBEDC /* Build configuration list for PBXProject "ZFDragableModalTransitionSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DEA744C1C91AE84007DBEDC;
+			productRefGroup = 3DEA74561C91AE84007DBEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DEA74541C91AE84007DBEDC /* ZFDragableModalTransitionSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEA74531C91AE84007DBEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA74631C91AE84007DBEDC /* LaunchScreen.storyboard in Resources */,
+				3DEA74601C91AE84007DBEDC /* Assets.xcassets in Resources */,
+				3DEA745E1C91AE84007DBEDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEA74511C91AE84007DBEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA745B1C91AE84007DBEDC /* ViewController.swift in Sources */,
+				3DEA74591C91AE84007DBEDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DEA745C1C91AE84007DBEDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEA745D1C91AE84007DBEDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DEA74611C91AE84007DBEDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEA74621C91AE84007DBEDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DEA74651C91AE84007DBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DEA74661C91AE84007DBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DEA74681C91AE84007DBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFDragableModalTransitionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.ZFDragableModalTransitionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DEA74691C91AE84007DBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFDragableModalTransitionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.ZFDragableModalTransitionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEA74501C91AE84007DBEDC /* Build configuration list for PBXProject "ZFDragableModalTransitionSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEA74651C91AE84007DBEDC /* Debug */,
+				3DEA74661C91AE84007DBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DEA74671C91AE84007DBEDC /* Build configuration list for PBXNativeTarget "ZFDragableModalTransitionSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEA74681C91AE84007DBEDC /* Debug */,
+				3DEA74691C91AE84007DBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DEA744D1C91AE84007DBEDC /* Project object */;
+}
