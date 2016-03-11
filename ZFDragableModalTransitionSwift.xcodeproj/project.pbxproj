@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DBEBFD61C92F72200AEEF7B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEBFD51C92F72200AEEF7B /* ModalViewController.swift */; };
 		3DEA74591C91AE84007DBEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA74581C91AE84007DBEDC /* AppDelegate.swift */; };
 		3DEA745B1C91AE84007DBEDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA745A1C91AE84007DBEDC /* ViewController.swift */; };
 		3DEA745E1C91AE84007DBEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA745C1C91AE84007DBEDC /* Main.storyboard */; };
 		3DEA74601C91AE84007DBEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA745F1C91AE84007DBEDC /* Assets.xcassets */; };
 		3DEA74631C91AE84007DBEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA74611C91AE84007DBEDC /* LaunchScreen.storyboard */; };
+		3DEA746C1C91AEC3007DBEDC /* ZFModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA746B1C91AEC3007DBEDC /* ZFModalTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DBEBFD51C92F72200AEEF7B /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		3DEA74551C91AE84007DBEDC /* ZFDragableModalTransitionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFDragableModalTransitionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEA74581C91AE84007DBEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEA745A1C91AE84007DBEDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		3DEA745F1C91AE84007DBEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEA74621C91AE84007DBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DEA74641C91AE84007DBEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEA746B1C91AEC3007DBEDC /* ZFModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFModalTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		3DEA74571C91AE84007DBEDC /* ZFDragableModalTransitionSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3DEA746A1C91AE8B007DBEDC /* Classes */,
 				3DEA74581C91AE84007DBEDC /* AppDelegate.swift */,
 				3DEA745A1C91AE84007DBEDC /* ViewController.swift */,
+				3DBEBFD51C92F72200AEEF7B /* ModalViewController.swift */,
 				3DEA745C1C91AE84007DBEDC /* Main.storyboard */,
 				3DEA745F1C91AE84007DBEDC /* Assets.xcassets */,
 				3DEA74611C91AE84007DBEDC /* LaunchScreen.storyboard */,
 				3DEA74641C91AE84007DBEDC /* Info.plist */,
 			);
 			path = ZFDragableModalTransitionSwift;
+			sourceTree = "<group>";
+		};
+		3DEA746A1C91AE8B007DBEDC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA746B1C91AEC3007DBEDC /* ZFModalTransitionAnimator.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBEBFD61C92F72200AEEF7B /* ModalViewController.swift in Sources */,
 				3DEA745B1C91AE84007DBEDC /* ViewController.swift in Sources */,
 				3DEA74591C91AE84007DBEDC /* AppDelegate.swift in Sources */,
+				3DEA746C1C91AEC3007DBEDC /* ZFModalTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				3DEA74691C91AE84007DBEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
