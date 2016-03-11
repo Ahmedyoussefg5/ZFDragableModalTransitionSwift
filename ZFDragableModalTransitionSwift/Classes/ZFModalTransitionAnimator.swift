@@ -319,9 +319,9 @@ class ZFModalTransitionAnimator: UIPercentDrivenInteractiveTransition,UIViewCont
         
         switch UIDevice.currentDevice().systemVersion.compare("8.0.0", options: NSStringCompareOptions.NumericSearch) {
         case .OrderedSame, .OrderedDescending:
-            return false
-        case .OrderedAscending:
             return true
+        case .OrderedAscending:
+            return false
         }
     }
     
@@ -516,10 +516,10 @@ class ZFModalTransitionAnimator: UIPercentDrivenInteractiveTransition,UIViewCont
             toViewController.view.alpha = 1.0
             fromViewController.view.frame = endRect;
             }, completion: { (finished: Bool) -> Void in
-                    if (fromViewController.modalPresentationStyle == UIModalPresentationStyle.Custom) {
-                        toViewController.endAppearanceTransition()
-                    }
-                    transitionContext.completeTransition(true)
+                if (fromViewController.modalPresentationStyle == UIModalPresentationStyle.Custom) {
+                    toViewController.endAppearanceTransition()
+                }
+                transitionContext.completeTransition(true)
         })
     }
     
@@ -534,8 +534,8 @@ class ZFModalTransitionAnimator: UIPercentDrivenInteractiveTransition,UIViewCont
         
         
         UIView.animateWithDuration(0.4, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
-            toViewController.view.layer.transform = self.tempTransform!;
-            toViewController.view.alpha = self.behindViewAlpha;
+            toViewController.view.layer.transform = self.tempTransform!
+            toViewController.view.alpha = self.behindViewAlpha
             
             fromViewController.view.frame = CGRectMake(0,0,
                 CGRectGetWidth(fromViewController.view.frame),

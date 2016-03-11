@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
-            timestampString = "479410116.740247"
+            timestampString = "479424500.526908"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "497"
-            endingLineNumber = "497"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
             landmarkName = "finishInteractiveTransition()"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
-            timestampString = "479410118.668361"
+            timestampString = "479425146.21152"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "492"
-            endingLineNumber = "492"
-            landmarkName = "finishInteractiveTransition()"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "animateTransition(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
-            timestampString = "479410120.288864"
+            timestampString = "479425313.376358"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "487"
-            endingLineNumber = "487"
-            landmarkName = "finishInteractiveTransition()"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
+            landmarkName = "updateInteractiveTransition(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,12 +74,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
-            timestampString = "479410170.509145"
+            timestampString = "479425318.899067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "506"
-            endingLineNumber = "506"
-            landmarkName = "finishInteractiveTransition()"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "startInteractiveTransition(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
+            timestampString = "479425345.814974"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "537"
+            endingLineNumber = "537"
+            landmarkName = "cancelInteractiveTransition()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZFDragableModalTransitionSwift/Classes/ZFModalTransitionAnimator.swift"
+            timestampString = "479425555.353659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "startInteractiveTransition(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
